@@ -1,0 +1,282 @@
+{
+  "globalDocumentId": "001",
+  "templates": [
+    {
+      "templateID": "1",
+      "sections": [
+        {
+          "sectionID": "1",
+          "isComplex": "no",
+          "sectionTitle": "Request for Proposal",
+          "isTitleEditable" : "true",
+          "titleMetadata": {
+            "headerStyle": "H1",
+            "headerFont": "Aerial",            
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          },
+          "sectionType": "Heading",
+          "sectionContent": "null",
+          "isSectionEditable" : "false",
+          "sectionMetadata": {
+            "headerStyle": "H1",
+            "headerFont": "Aerial",            
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          }
+        },
+        {
+          "sectionID": "2",
+          "isComplex": "no",
+          "sectionTitle": "Lorum epsum jsom",
+          "isTitleEditable" : "true",
+          "titleMetadata": {
+            "headerStyle": "H2",
+            "headerFont": "Aerial",            
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          },
+          "sectionType": "Subheading",
+          "isSectionEditable" : "false",
+          "sectionContent": "Lorum epsum jsom",
+          "sectionMetadata": {
+            "headerStyle": "H2",
+            "headerFont": "Aerial",            
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          }
+        },
+        {
+          "sectionID": "3",
+          "isComplex": "no",
+          "sectionTitle": "HeadingDesc",
+          "isTitleEditable" : "false",
+          "titleMetadata": {
+            "headerStyle": "H4",
+            "headerFont": "Aerial",                       
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          },
+          "sectionType": "PARA",
+          "sectionContent": "This Request for Proposal is the exclusive property of Nestlé; it shall not be copied, transmitted or disclosed by any means without the expressed written consent of Nestlé. By accepting a copy hereof, the recipient agrees to be bound by these conditions and to use these documents solely for responding to Nestlé Request for Proposal.",
+          "isSectionEditable" : "true",
+          "sectionMetadata": {
+            "headerStyle": "H4",
+            "headerFont": "Aerial",            
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          }
+        },
+        {
+          "sectionID": "4",
+          "isComplex": "no",
+          "sectionTitle": "1 Introduction",
+          "isTitleEditable" : "true",
+          "titleMetadata": {
+            "headerStyle": "H2",
+            "headerFont": "Aerial",                      
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          },"sectionType": "ListHeading",
+          "sectionContent": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took gallery type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMakerincluding versions of Lorem Ipsum ",
+          "isSectionEditable" : "false",
+          "sectionMetadata": {
+            "headerStyle": "H4",
+            "headerFont": "Aerial",            
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          }
+        },
+        {
+          "sectionID": "5",
+          "isComplex": "no",
+          "sectionTitle": "",
+          "isTitleEditable" : "",
+          "titleMetadata": {
+            "headerStyle": "",
+            "headerFont": "",                     
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          },"sectionType": "Desc",
+          "sectionContent": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took gallery type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMakerincluding versions of Lorem Ipsum ",
+          "isSectionEditable" : "true",
+          "sectionMetadata": {
+            "headerStyle": "p",
+            "headerFont": "Aerial",           
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          }
+        },
+        {          
+          "sectionID": "6",
+          "isComplex": "no",
+          "sectionTitle": "1.1 Overview",
+          "isTitleEditable" : "true",
+          "titleMetadata": {
+            "headerStyle": "H2",
+            "headerFont": "Aerial",                    
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          },"sectionType": "ListHeading",
+          "sectionContent": "",
+          "isSectionEditable" : "false",
+          "sectionMetadata": {
+            "headerStyle": "",
+            "headerFont": "",          
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          }
+        },
+        {
+          
+          "sectionID": "7",
+          "isComplex": "no",
+          "sectionTitle": "",
+          "isTitleEditable" : "",
+          "titleMetadata": {
+            "headerStyle": "",
+            "headerFont": "",                      
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          },"sectionType": "Desc",
+          "sectionContent": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took gallery type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMakerincluding versions of Lorem Ipsum ",
+          "isSectionEditable" : "true",
+          "sectionMetadata": {
+            "headerStyle": "p",
+            "headerFont": "Aerial",
+            "fontSize": "24px",
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          }
+        },
+        {
+          
+          "sectionID": "8",
+          "isComplex": "no",
+          "sectionTitle": "1.2 Project Overview and Summary",
+          "isTitleEditable" : "true",
+          "titleMetadata": {
+            "headerStyle": "H2",
+            "headerFont": "Aerial",                     
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          },"sectionType": "ListHeading",
+          "sectionContent": "",
+          "isSectionEditable" : "",
+          "sectionMetadata": {
+            "headerStyle": "",
+            "headerFont": "",          
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          }
+        },
+        {
+          
+          "sectionID": "9",
+          "isComplex": "no",
+          "sectionTitle": "",
+          "isTitleEditable" : "",
+          "titleMetadata": {
+            "headerStyle": "",
+            "headerFont": "",                      
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          },"sectionType": "Desc",
+          "sectionContent": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took gallery type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMakerincluding versions of Lorem Ipsum ",
+          "isSectionEditable" : "true",
+          "sectionMetadata": {
+            "headerStyle": "p",
+            "headerFont": "Aerial",           
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          }
+        },        
+        {
+          "sectionID": "10",
+          "isComplex": "no",
+          "sectionTitle": "1.3 Functional Requirements",
+          "isTitleEditable" : "true",
+          "titleMetadata": {
+            "headerStyle": "H2",
+            "headerFont": "Aerial",           
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          },
+          "sectionType": "ListHeading",
+          "sectionContent": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took gallery type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMakerincluding versions of Lorem Ipsum ",
+          "isSectionEditable" : "false",
+          "sectionMetadata": {
+            "headerStyle": "p",
+            "headerFont": "Aerial",          
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          }
+        },
+        {          
+          "sectionID": "11",
+          "isComplex": "no",
+          "sectionTitle": "",
+          "isTitleEditable" : "",
+          "titleMetadata": {
+            "headerStyle": "",
+            "headerFont": "",                      
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          },"sectionType": "Desc",
+          "sectionContent": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took gallery type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMakerincluding versions of Lorem Ipsum ",
+          "isSectionEditable" : "true",
+          "sectionMetadata": {
+            "headerStyle": "p",
+            "headerFont": "Aerial",           
+            "textStyle": [
+              "BOLD",
+              "ITALIC"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

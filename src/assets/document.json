@@ -1,0 +1,192 @@
+{
+  "globalDocumentId": "001",
+  "globalDocumentName": "Quotation",
+  "templates": [
+    {
+      "templateID": "1",
+      "templateSrc": "",
+      "sections": [
+        {
+          "sectionID": "1",
+          "isComplex": "no",
+          "sectionTitle": "Request for Proposal",
+          "isSectionTitleEditable": "true",
+          "isSectionTitleIncludedForPreview": "true",
+          "titleStyle": "font-size:10px; text-align: center; margin-top: 10em; font-weight: bold;",
+          "sectionType": "Heading",
+          "sectionContent": "null",
+          "isSectionContentEditable": "false",
+          "tableInfo": "",
+          "sectionStyle": ""
+        },
+        {
+          "sectionID": "2",
+          "isComplex": "no",
+          "sectionTitle": "Proposal title goes here",
+          "isSectionTitleEditable": "true",
+          "isSectionTitleIncludedForPreview": "true",
+          "titleStyle": "margin-bottom: 15em; text-align: center;",
+          "sectionType": "SubHeading",
+          "sectionContent": "null",
+          "isSectionContentEditable": "false",
+          "tableInfo": "",
+          "sectionStyle": ""
+        },
+        {
+          "sectionID": "3",
+          "isComplex": "no",
+          "sectionTitle": "Description",
+          "isSectionTitleEditable": "false",
+          "isSectionTitleIncludedForPreview": "false",
+          "titleStyle": "",
+          "sectionType": "PARA",
+          "sectionContent": "This Request for Proposal is the exclusive property of Nestlé; it shall not be copied, transmitted or disclosed by any means without the expressed written consent of Nestlé. By accepting a copy hereof, the recipient agrees to be bound by these conditions and to use these documents solely for responding to Nestlé Request for Proposal.",
+          "isSectionContentEditable": "true",
+          "tableInfo": "",
+          "sectionStyle": " color: #767171;white-space: pre-wrap; margin-bottom: 2em; border: 1px solid black; padding: 10px; margin-bottom: 5em"
+        },
+        {
+          "sectionID": "4",
+          "isComplex": "no",
+          "sectionTitle": "1 Introduction",
+          "isSectionTitleEditable": "true",
+          "isSectionTitleIncludedForPreview": "true",
+          "sectionType": "list",
+          "sectionContent": "This Request for Proposal is the exclusive property of Nestlé; it shall not be copied, transmitted or disclosed by any means without the expressed written consent of Nestlé. By accepting a copy hereof, the recipient agrees to be bound by these conditions and to use these documents solely for responding to Nestlé Request for Proposal.",
+          "isSectionContentEditable": "true",
+          "tableInfo": ""
+        },
+        {
+          "sectionID": "5",
+          "isComplex": "no",
+          "sectionTitle": "1.1 Overview",
+          "isSectionTitleEditable": "true",
+          "isSectionTitleIncludedForPreview": "true",
+          "sectionType": "list",
+          "sectionContent": "This Request for Proposal is the exclusive property of Nestlé; it shall not be copied, transmitted or disclosed by any means without the expressed written consent of Nestlé. By accepting a copy hereof, the recipient agrees to be bound by these conditions and to use these documents solely for responding to Nestlé Request for Proposal.",
+          "isSectionContentEditable": "true",
+          "tableInfo": ""
+        },
+        {
+          "sectionID": "6",
+          "isComplex": "no",
+          "sectionTitle": "1.2 Project Overview and Summary",
+          "isSectionTitleEditable": "true",
+          "isSectionTitleIncludedForPreview": "true",
+          "sectionType": "list",
+          "sectionContent": "This Request for Proposal is the exclusive property of Nestlé; it shall not be copied, transmitted or disclosed by any means without the expressed written consent of Nestlé. By accepting a copy hereof, the recipient agrees to be bound by these conditions and to use these documents solely for responding to Nestlé Request for Proposal.",
+          "isSectionContentEditable": "true",
+          "tableInfo": ""
+        },
+        {
+          "sectionID": "7",
+          "isComplex": "yes",
+          "sectionTitle": "1.3 Functional Requirements",
+          "isSectionTitleEditable": "true",
+          "isSectionTitleIncludedForPreview": "true",
+          "sectionType": "table",
+          "sectionContent": "",
+          "isSectionContentEditable": "true",
+          "tableInfo": {
+            "tableHeader": [
+              {
+                "columnHeader": "Task"
+              },
+              {
+                "columnHeader": "Description"
+              }              
+            ],
+            "tableDetails": [
+              {
+                "tableRowData": [
+                  {
+                    "columnDetails": "Service Request"
+                  },
+                  {
+                    "columnDetails": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                  }                  
+                ]
+              },
+              {
+                "tableRowData": [
+                  {
+                    "columnDetails": "Work Order"
+                  },
+                  {
+                    "columnDetails": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing"
+                  }
+                ]
+              },
+              {
+                "tableRowData": [
+                  {
+                    "columnDetails": "Ticket Item"
+                  },
+                  {
+                    "columnDetails": "Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+                  }
+                ]
+              },
+              {
+                "tableRowData": [
+                  {
+                    "columnDetails": "Product"
+                  },
+                  {
+                    "columnDetails": "Material information"
+                  }
+                ]
+              },
+              {
+                "tableRowData": [
+                  {
+                    "columnDetails": "Involved parties"
+                  },
+                  {
+                    "columnDetails": "Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+                  }
+                ]
+              },
+              {
+                "tableRowData": [
+                  {
+                    "columnDetails": "Service Location"
+                  },
+                  {
+                    "columnDetails": "Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sectionID": "8",
+          "isComplex": "no",
+          "sectionTitle": "",
+          "isSectionTitleEditable": "false",
+          "isSectionTitleIncludedForPreview": "false",
+          "titleStyle": "",
+          "sectionType": "Header",
+          "sectionContent": "data:image/png;base64,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",
+          "isSectionContentEditable": "false",
+          "tableInfo": "",
+          "sectionStyle": "float:right"
+        },
+        {
+          "sectionID": "9",
+          "isComplex": "no",
+          "sectionTitle": "",
+          "isSectionTitleEditable": "false",
+          "isSectionTitleIncludedForPreview": "false",
+          "titleStyle": "",
+          "sectionType": "Footer",
+          "sectionContent": " Company Name - Project Name goes here --",
+          "isSectionContentEditable": "false",
+          "tableInfo": "",
+          "sectionStyle": "position: relative;left: 0;bottom: 0;width: 100%;text-align: center;"
+        }
+      ]
+    }    
+  ]
+}

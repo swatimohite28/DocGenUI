@@ -1,0 +1,127 @@
+<h4 class="text-center text-primary">Design Document</h4>
+<div class="col-md-6">
+    <div class="form-group">
+        <label>Document Name</label>
+        <input class="form-control" type="text" name="name" placeholder="" autocomplete="off"
+            [(ngModel)]="globalDoc.globalDocumentName">
+    </div>
+</div>
+
+
+
+<!-- Select Template -->
+<div class="wizard">
+    <div class="wizard-inner">
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active" *ngFor="let temp of globalDoc.templates">
+                <div class="custom-control custom-radio image-checkbox">
+                    <input type="radio" class="custom-control-input" id="ck2a" name="ck2" checked>
+                    <label class="custom-control-label" for="ck2a">
+                        <a href="#step5" data-toggle="tab" aria-controls="step5" role="tab" aria-expanded="true">
+                            <img src="../../assets/Images/template1.PNG" alt="#" class="img-fluid">
+                        </a>
+                    </label>
+                </div>
+            </li>           
+        </ul>
+    </div>
+
+
+
+    <div class="tab-pane" role="tabpanel" id="step5" *ngFor="let item of sectionArr">
+        <div class="list-content" *ngIf="item.sectionType != 'table' && item.sectionType != 'Header' && item.sectionType != 'Footer' ">
+            <a href="#Section{{item.sectionID}}" data-toggle="collapse" aria-expanded="false" aria-controls="listone">
+
+                <span *ngIf="item.isSectionTitleEditable == 'false' ">{{item.sectionTitle}} </span>
+
+                <input class="form-control" *ngIf="item.isSectionTitleEditable == 'true' " type="text" style="width:95% !important"
+                    name="name{{item.sectionID}}" placeholder="" [(ngModel)]="item.sectionTitle">
+                <i class="fa fa-chevron-down"></i>
+            </a>            
+
+            <div *ngIf="item.isSectionContentEditable == 'true' " id="Section{{item.sectionID}}">
+                <div class="collapse" id="Section{{item.sectionID}}" *ngIf="item.isSectionContentEditable == 'true'">
+                    <textarea id="w3review"  rows="4" cols="100"
+                        style="border: 1px solid; margin-top: 10px;" [(ngModel)]="item.sectionContent">
+                                                        </textarea>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="list-content" *ngIf="item.sectionType == 'table' ">
+            <a href="#divTable" data-toggle="collapse" aria-expanded="false" aria-controls="listone">
+
+                <span *ngIf="item.isSectionTitleEditable == 'false' ">{{item.sectionTitle}} </span>
+
+                <input class="form-control" *ngIf="item.isSectionTitleEditable == 'true' " type="text" style="width:95% !important"
+                    name="name{{item.sectionID}}" placeholder="" [(ngModel)]="item.sectionTitle">
+                <i class="fa fa-chevron-down"></i>
+            </a>   
+        </div>
+
+
+    </div>
+
+    <div  id="divTable">
+        <div class="collapse" id="divTable" >
+            <section>
+                <table class="tableSection" >
+
+                    <th *ngFor = "let item of tableData.tableHeader" >
+                        <input class="form-control"  type="text" placeholder="" [(ngModel)]="item.columnHeader">
+                       
+                     </th>
+                        <tr  *ngFor = "let item of tableData.tableDetails" >
+                            <td *ngFor = "let data of item.tableRowData">                                 
+                                <!-- <input class="form-control" *ngIf="item.isSectionTitleEditable == 'true' " type="text"
+                    name="name{{item.sectionID}}" placeholder="" [(ngModel)]="item.sectionTitle"> -->
+                               <textarea [(ngModel)]="data.columnDetails" *ngIf="tableArr.isSectionContentEditable == 'true' " class="textarea-content">  </textarea>    
+                                       <span *ngIf="tableArr.isSectionContentEditable == 'false' "> {{data.columnDetails}}  </span>           <!-- <p *ngIf="item.isSectionTitleEditable == 'false' "> {{item.sectionTitle }} </p>  -->
+
+                            </td>
+                            <!-- <td>                  
+                                <textarea   rows="4" cols="55" *ngIf="item.isSectionContentEditable == 'true'"
+                                 [(ngModel)]="item.sectionContent">
+                                                                </textarea>    
+                                                                
+                                     <p *ngIf="item.isSectionContentEditable == 'false' "> {{item.sectionContent }} </p>                           
+                            </td> -->
+                        </tr>
+                 </table>
+            
+                </section> 
+        </div>
+    </div>
+
+
+    <!-- <div class="tab-pane" role="tabpanel" >
+        <div class="collapse" id="divTable" >
+            <section>
+                <table class="tableSection" >
+                        <tr  *ngFor = "let item of tableArr" >
+                            <td> 
+                                
+                                <input class="form-control" *ngIf="item.isSectionTitleEditable == 'true' " type="text"
+                    name="name{{item.sectionID}}" placeholder="" [(ngModel)]="item.sectionTitle">
+
+                            </td>
+                            <td *ngIf="item.isSectionContentEditable == 'true'" >                  
+                                <textarea id="w3review"   rows="4" cols="50"
+                                style="border: 1px solid; margin-top: 10px;" [(ngModel)]="item.sectionContent">
+                                                                </textarea>                                   
+                            </td>
+                        </tr>
+                 </table>
+            
+                </section>  
+        </div>
+    </div> -->
+
+
+
+
+    <ul class="list-inline pull-right">
+        <li><button type="button" class="default-btn next-step">Continue to next step</button></li>
+    </ul>
+</div>

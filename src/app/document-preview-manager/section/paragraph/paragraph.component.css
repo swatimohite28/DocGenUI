@@ -1,0 +1,14 @@
+.short-desc span{
+    color: #767171;
+}
+.para{
+    white-space: pre-wrap;
+    margin-bottom: 2em;  
+}
+
+.para-outline
+{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 4em !important;
+}

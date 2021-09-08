@@ -1,0 +1,9 @@
+
+  <section *ngFor = "let item of sectionArr">
+    <div  *ngIf="item.sectionType == 'PARA' ">
+      <p  [style]="item.sectionStyle"> <span>{{item.sectionContent }}</span> </p>
+    </div> 
+    </section>
+
+    <!-- class="short-desc para para-outline" -->
+    

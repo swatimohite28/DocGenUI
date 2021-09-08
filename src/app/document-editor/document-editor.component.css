@@ -1,0 +1,9 @@
+.textarea-content
+{
+    border: ridge 2px;
+    padding: 5px;
+    width: 100%;
+    min-height: 5em;
+    overflow: auto;    
+    resize: both;
+}

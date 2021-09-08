@@ -1,0 +1,65 @@
+.edit-btn
+{ 
+    float: right;   
+    top: 7em;
+}
+
+.para-content{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6em;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10;
+    border: 1px solid;
+    margin-bottom: 3em;
+}
+
+.para-content-input
+{
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    margin-top: 6em;
+    text-align: left;
+    /* padding: 10px;
+    //border: 1px solid; */
+    /* width: 44em; */
+    overflow: scroll;
+    margin-bottom: 3em;
+}
+
+/* .heading{
+     font-size: 2.5em;
+     font-weight: 700;
+} */
+
+.sub-heading{
+    font-size: 2em;
+}
+
+.desciprion-align{
+    font-size: 2em;
+}
+
+p{
+    font-size: 0.9em;
+    line-height: 20px;
+    margin-bottom: 1em;
+}
+
+p.desc-section {
+    padding: 0px 5em !important;
+}
+
+.desc-section
+{
+    display: block;
+    float: none;
+    padding: 0 2em;
+    text-align: left !important;
+}
+
+h2.desc-section
+{
+    font-weight: bold;
+}

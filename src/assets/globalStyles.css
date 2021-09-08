@@ -1,0 +1,82 @@
+*{
+    border: none;
+    font-family: sans-serif;
+    margin: 0;
+    outline: none;
+    padding: 0;
+}
+html,body{
+    background: #E9EBEC !important;
+    color: #000;
+    height: 100%;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em !important;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em !important;
+}
+p{
+    font-size: 0.9em;
+    line-height: 20px;
+    margin-bottom: 1em;
+}
+section{
+    overflow: hidden;
+    padding-bottom: 3em;
+}
+section,.header{
+    display: block;
+    float: none;
+    padding: 0 1em;
+}
+
+.mainSection{
+    box-shadow: 0 0 3px #666;
+    margin: 0 auto;
+    width: 900px;
+    background-color: white;
+}
+.header{
+    overflow: hidden;
+}
+
+.titleSection{
+    background: #fff !important;
+    clear: both;
+    display: grid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    vertical-align: middle;
+}
+
+
+footer{
+    border-top: 1px dotted #000;
+    margin-top: 2em;
+    padding: 1em;
+}
+footer p{
+    margin-bottom: 0;
+}
+
+
+
+table.tableSection{
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px;
+    width: 100%;
+}
+table.tableSection td{
+    border: 1px solid #000;
+    vertical-align: top;
+    padding: 0.5em;
+}
+table.tableSection td:first-child{
+    max-width: 15%;
+    min-width: 5%;    
+    white-space: nowrap;
+} 

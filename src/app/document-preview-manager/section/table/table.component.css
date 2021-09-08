@@ -1,0 +1,21 @@
+td
+{
+    white-space: pre-wrap !important;
+}
+               
+/* table.tableSection{
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px;
+    width: 1000px;
+}
+table.tableSection td{
+    border: 1px solid #000;
+    vertical-align: top;
+    padding: 0.5em;
+}
+table.tableSection td:first-child{
+    max-width: 15%;
+    min-width: 5%;    
+    white-space: nowrap;
+} */

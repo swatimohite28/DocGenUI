@@ -1,0 +1,7 @@
+<div *ngFor = "let item of sectionArr">
+    <section *ngIf="item.sectionType == 'list' ">
+        <h2 class="heading list-heading">{{item.sectionTitle }}</h2>
+        <p class="para">{{item.sectionContent}}</p>        
+    </section>
+</div>
+

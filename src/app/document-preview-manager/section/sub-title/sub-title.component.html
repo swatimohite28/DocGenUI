@@ -1,0 +1,7 @@
+<div *ngFor = "let item of sectionArr" >
+    <div *ngIf="item.sectionType == 'SubHeading' " >
+        <p [style]="item.titleStyle" > {{ item.sectionTitle }} </p>
+    </div>
+</div>
+
+<!-- class="text-center title-align subTitle-align" -->

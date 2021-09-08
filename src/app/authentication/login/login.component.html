@@ -1,0 +1,21 @@
+<div class="login-wrapper">
+    <div class="card">
+      <div class="card-body">
+        <form class="form-signin" (ngSubmit)="onSubmit()" #signInForm="ngForm">
+          <h1 class="h3 mb-3 fw-normal">Sign In</h1>
+      
+          <div class="form-floating">
+            <input type="text" class="form-control" autocomplete="off" [(ngModel)]="userName" name="username" id="floatingInput" placeholder="Username" style="margin-bottom:1rem;" (onkeypress)="removeError()">
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" [(ngModel)]="password" name="password" id="floatingPassword" placeholder="Password" (onkeypress)="removeError()">
+          </div>
+            <label style="margin-bottom:1rem; font-size:small; color:rgb(0, 68, 255);cursor: pointer;">Forgot Password? </label>
+          <button class="w-100 btn btn-lg btn-primary" style="margin-bottom:1rem" type="submit">Enter</button>  
+          <span class="error-msg"> {{ errorMsg }} </span>
+        </form>
+      </div>
+    </div>
+  </div> 
+
+  
