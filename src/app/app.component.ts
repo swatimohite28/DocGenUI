@@ -17,7 +17,7 @@ export class AppComponent {
 ) {
    // this.authenticationService.currentUser.subscribe(x => this.currentUser = x);
    //redirect login page when application load
-   this.router.navigate(['/login']);
+   //this.router.navigate(['/login']);
 }
 
 logout() {
